@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "elasticsearch",
+      "type": "com.aebiz.es.config.ElasticsearchProperties",
+      "sourceType": "com.aebiz.es.config.ElasticsearchProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "elasticsearch.hosts",
+      "type": "java.lang.String",
+      "description": "elasticsearch host 多个节点逗号分割 127.0.0.1:9200,127.0.0.1:9201",
+      "sourceType": "com.aebiz.es.config.ElasticsearchProperties"
+    },
+    {
+      "name": "elasticsearch.password",
+      "type": "java.lang.String",
+      "description": "elasticsearch 认证密码",
+      "sourceType": "com.aebiz.es.config.ElasticsearchProperties"
+    },
+    {
+      "name": "elasticsearch.username",
+      "type": "java.lang.String",
+      "description": "elasticsearch 认证用户名",
+      "sourceType": "com.aebiz.es.config.ElasticsearchProperties"
+    }
+  ],
+  "hints": []
+}
